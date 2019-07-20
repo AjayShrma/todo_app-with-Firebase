@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradeint"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<ImageView
+    android:id="@+id/img"
+    android:background="@drawable/ic_assignment_black_24dp"
+    android:layout_centerInParent="true"
+    android:layout_width="200dp"
+    android:layout_height="200dp" />
+
+    <TextView
+        android:textColor="#000000"
+        android:paddingLeft="30dp"
+        android:textSize="30dp"
+        android:text="Todo-List"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/img"
+        android:id="@+id/text"
+        android:layout_width="200dp"
+        android:layout_height="40dp" />
+</RelativeLayout>

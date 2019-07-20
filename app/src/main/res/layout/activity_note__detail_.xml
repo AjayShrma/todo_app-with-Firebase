@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Note_Detail_Activity"
+    android:background="@drawable/gradeint">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Title"
+            android:hint="TITLE"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="#ffffff"
+            android:background="#80000000"
+            android:textColor="#ffffff"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/Desc"
+            android:layout_below="@+id/Title"
+            android:hint="Description"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColorHint="#ffffff"
+            android:textAlignment="textStart"
+            android:background="#80000000"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:gravity="start"/>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Desc"
+            android:layout_margin="30dp"
+            android:id="@+id/btnCancel"
+            android:textColor="#ffffff"
+            android:background="@drawable/closewhite"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Desc"
+            android:layout_margin="30dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/donewhite"
+            android:gravity="right"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btndone"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
